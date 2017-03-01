@@ -1,4 +1,5 @@
-Phần cảnh báo em làm lại và có kết quả như sau anh ạ: 
+#Phần cảnh báo em làm lại và có kết quả như sau anh ạ: 
+
 -1. **Vấn đề gửi cùng lúc đến nhiều nơi:** OK.  Em cấu hình gửi đồng thời đến 2 địa chỉ email, channel slack.
 
 -2. **Sau khi đẩy cảnh báo,  có thể tiếp tục đẩy cảnh báo đến người khác khác sau?** Phần này thằng Alert manager 
