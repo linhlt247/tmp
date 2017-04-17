@@ -79,7 +79,7 @@ Khi 1 PV thoả mãn yêu cầu của 1 PVC thì chúng "match" nhau, rồi "bou
 - Đảm nhiệm chức năng là triển khai các pods, services lên các nodes.
 - Scheduler nắm các thông tin liên quan đến các tài nguyên có sẵn trên các thành viên của cluster, cũng như các yêu cầu cần thiết cho dịch vụ cấu hình để chạy và do đó có thể quyết định nơi triển khai một dịch vụ cụ thể.
 
-##3 2.1.4 controller-manager
+## 2.1.4 controller-manager
 - Sử dụng api server để có thể xem trạng thái của cluster và từ đó thực hiện các thay đổi chính xác cho trạng thái hiện tại để trở thành một trạng thái mong muốn.
 - Ví dụ Replication controller có chức năng đảm bảo rằng số lượng các pod replicas đã định nghĩa luôn luôn chạy đủ số lượng tại bất kì thời điểm nào.
 
