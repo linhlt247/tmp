@@ -19,4 +19,4 @@ Ký ức, quá khứ đã muốn quên, mà không sao quên được! Đa sầu
 
 Bao lâu, thì mọi thứ trong lòng lại bình yên trở lại?!
 
-![](https://www.youtube.com/embed/bm6ChqzU3lI)
+[![]()](https://www.youtube.com/embed/bm6ChqzU3lI)
