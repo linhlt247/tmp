@@ -13,10 +13,10 @@ Tôi là một người thích mưa. Lang thang dưới mưa, ngắm nhìn phố
 
 Hôm nay, Hà Nội lại đổ mưa. Mưa đến bật chợt, kéo dài lê thê. Mưa - gợi lại những ký ức buồn! ấy vậy mà ko hiểu sao, tôi lại thích mưa vậy nhỉ?!
 
-![](https://phunudep.com/wp-content/uploads/2016/01/nhung-hinh-anh-ve-mua-dep-nhat-so-9.jpg)
+![](http://file.vforum.vn/hinh/2013/6/nhac-hay-ve-mua.jpg)
 
 Ký ức, quá khứ đã muốn quên, mà không sao quên được! Đa sầu, đa cảm cũng có cái khổ của nó chứ nhỉ.
 
 Bao lâu, thì mọi thứ trong lòng lại bình yên trở lại?!
 
-[![]()](https://www.youtube.com/embed/bm6ChqzU3lI)
+[![Mưa](https://phunudep.com/wp-content/uploads/2016/01/nhung-hinh-anh-ve-mua-dep-nhat-so-9.jpg)](https://www.youtube.com/embed/bm6ChqzU3lI)
