@@ -16,7 +16,7 @@ fi
 
 
 ## Setup Pip & Install Ansible
-apt-get install -u software-properties-common ansible python-pip python-dev git gcc libffi-devel openssl-devel crudini
+apt-get install -y software-properties-common ansible python-pip python-dev git gcc libffi-dev openssl crudini
 pip install -U pip
 
 
@@ -32,7 +32,7 @@ sudo apt-get update
 
 ## Install Kubernetes 1.6.2 and other dependencies
 kubelet_version=1.6.2-00
-sudo apt-get install -y docker.io kubeadm-$kubelet_version kubectl-$kubelet_version kubelet-$kubelet_version kubernetes-cni-$kubelet_version
+sudo apt-get install -y docker.io kubeadm=$kubelet_version kubectl=$kubelet_version kubelet=$kubelet_version kubernetes-cni=$kubelet_version
 sudo systemctl enable docker
 sudo systemctl start docker
 sudo systemctl enable kubelet
