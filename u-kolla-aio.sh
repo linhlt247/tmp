@@ -32,15 +32,15 @@ sudo apt-get update
 
 ## Install Kubernetes 1.6.2 and other dependencies
 kubelet_version=1.6.2-00
-sudo apt-get install -y docker.io kubeadm=$kubelet_version kubectl=$kubelet_version kubelet=$kubelet_version kubernetes-cni=$kubelet_version
+sudo apt-get install -y docker.io kubeadm=$kubelet_version kubectl=$kubelet_version kubelet=$kubelet_version kubernetes-cni=0.5.1-00
 sudo systemctl enable docker
 sudo systemctl start docker
 sudo systemctl enable kubelet
 
 ## Setup NTP
 apt-get install -y ntp
-systemctl enable ntpd.service
-systemctl start ntpd.service
+systemctl enable ntp
+systemctl start ntp
 
 
 ## Kubeadm
@@ -50,7 +50,7 @@ systemctl daemon-reload
 systemctl start docker
 systemctl restart kubelet
 
-kubeadm init --skip-preflight-checks --service-cidr 172.16.128.0/24 --pod-network-cidr 172.16.132.0/22
+kubeadm init --service-cidr 172.16.128.0/24 --pod-network-cidr 172.16.132.0/22
 
 mkdir -p ~/.kube
 cp /etc/kubernetes/admin.conf ~/.kube/config
